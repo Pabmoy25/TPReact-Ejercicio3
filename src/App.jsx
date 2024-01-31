@@ -2,6 +2,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import './App.css'
 import Saludos from "./components/Saludos";
+import Footer from "./components/Footer";
 
 function App() {
  
@@ -13,6 +14,7 @@ function App() {
     
     
     </section>
+    <Footer></Footer>
     </>
   )
 }
