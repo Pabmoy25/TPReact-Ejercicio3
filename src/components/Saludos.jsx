@@ -1,8 +1,8 @@
-const Saludos = () => {
+const Saludos = (props) => {
     return (
-        <div>
-            
-        </div>
+        <section>
+            <h2>Hello {props.enviarProps}</h2>
+        </section>
     );
 };
 
