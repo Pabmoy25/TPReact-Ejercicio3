@@ -1,8 +1,7 @@
-
 import "bootstrap/dist/css/bootstrap.min.css";
 import './App.css'
-import Saludos from "./components/Saludos";
 import Footer from "./components/Footer";
+import Saludos from "./components/Saludos";
 
 function App() {
  
@@ -11,7 +10,6 @@ function App() {
     <>
       <section className="container mt-5 mainpage text-center">
     <Saludos enviarProps="My friend!"></Saludos>
-    
     
     </section>
     <Footer></Footer>
